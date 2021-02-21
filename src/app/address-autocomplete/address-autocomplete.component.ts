@@ -1,5 +1,3 @@
-/// <reference types="@types/googlemaps" />
-
 import { ChangeDetectorRef, Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
 
 @Component({
