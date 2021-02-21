@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "address-autocomplete"
+    }
+  },
+  "defaultProject": "address-autocomplete",
+  "cli": {
+    "analytics": false
+  }
 }

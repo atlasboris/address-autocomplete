@@ -1,0 +1,18 @@
+<table>
+    <tr>
+      <th>City</th>
+      <th>Address</th>
+      <th>Type </th>
+      <th>ZipCode</th>
+      <th></th>
+    </tr>
+    <tr *ngFor="let location of rows">
+      <td>{{location.city}}</td>
+      <td>{{location.street}}  {{location.number}}</td>
+      <td>{{location.typeOfAddress}}</td>
+      <td>{{location.zip}}</td>
+      <td>
+        <button (click)="onDelete(location)">Delete</button>
+      </td>
+    </tr>
+  </table>
