@@ -8,7 +8,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AgmCoreModule } from '@agm/core';
 import { AddressTableComponent } from './address-table/address-table.component';
 import { AddressAutocompleteComponent } from './address-autocomplete/address-autocomplete.component';
 
@@ -25,11 +24,7 @@ import { AddressAutocompleteComponent } from './address-autocomplete/address-aut
     CommonModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB9SjHQ-bBjZh0GDccjGhMPxR_4HbNFbWo',
-      libraries: ['places']
-    })
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
